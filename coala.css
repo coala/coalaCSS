@@ -1,0 +1,115 @@
+/* Tab Navigation */
+
+.tabs {
+ display: flex;
+ font-family: Roboto;
+ text-transform: uppercase;
+ letter-spacing: 0.1em;
+}
+
+.tabs .tab {
+ display: inline-block;
+ text-align: center;
+ line-height: 48px;
+ height: 48px;
+ padding: 0;
+ margin: 0;
+ flex-grow: 1;
+ width: calc(100% * (1/5) - 10px - 1px);
+}
+
+.tabs .tab a {
+ color: lightslategrey !important;
+ display: block;
+ width: 100%;
+ height: 100%;
+ padding: 0 24px;
+ font-size: 14px;
+ text-overflow: ellipsis;
+ overflow: hidden;
+ transition: color .28s ease;
+}
+
+.tabs .tab a:hover,
+.tabs .tab a.active {
+ background-color: transparent;
+ color: black !important;
+}
+
+.tabs .tab.disabled a,
+.tabs .tab.disabled a:hover {
+ color: rgba(238, 110, 115, 0.7);
+ cursor: default;
+}
+
+.tabs .indicator {
+ position: absolute;
+ bottom: 0;
+ height: 2px;
+ background-color: black !important;
+ will-change: left, right;
+}
+
+nav {
+ background: transparent;
+ box-shadow: 0 0 0 0;
+}
+
+nav a {
+ color: black;
+}
+
+ul li a {
+ color: inherit;
+}
+
+/* Titles */
+
+.title {
+ font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+ font-size: 14em;
+ font-weight: 100;
+ text-align: center;
+}
+.logo {
+ height: 15em;
+ margin-top: 4em;
+}
+/* Typography */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-family: Roboto;
+}
+h1 {
+ font-size: 5em;
+}
+h2 {
+ font-size: 3em;
+}
+h3 {
+ font-size: 2em;
+}
+h4 {
+ font-size: 1.6em;
+}
+h5 {
+ font-size: 1.5em;
+}
+h6 {
+ font-size: 1em;
+}
+.fine {
+ font-weight: 100;
+}
+.tiny-label {
+ font-size: 10px;
+ letter-spacing: 0.1em;
+ text-align: center;
+ font-weight: 500;
+ opacity: 0.2;
+}
