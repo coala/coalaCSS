@@ -131,3 +131,40 @@ textarea.pre {
  overflow: scroll;
  max-height: 300px;
 }
+
+/* Select box */
+
+span.caret {
+ padding-left: 10px;
+}
+
+.select-wrapper input.select-dropdown {
+ background-color: rgba(40,53,147,0.1);
+ width: 100%;
+ padding: 0;
+ border: 1px solid #f2f2f2;
+ border-top-color: rgb(242,242,242);
+ border-top-style: solid;
+ border-top-width: 1px;
+ border-right-color: rgb(242,242,242);
+ border-right-style: solid;
+ border-right-width: 1px;
+ border-bottom-color: rgb(242,242,242);
+ border-bottom-style: solid;
+ border-bottom-width: 1px;
+ border-left-color: rgb(242,242,242);
+ border-left-style: solid;
+ border-left-width: 1px;
+ border-image-source: initial;
+ border-image-slice: initial;
+ border-image-width: initial;
+ border-image-outset: initial;
+ border-image-repeat: initial;
+ border-radius: 2px;
+ height: 3rem;
+}
+
+.select-wrapper input[type=text]{
+ padding-left: 0.5em;
+}
+
