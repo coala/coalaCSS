@@ -363,3 +363,129 @@ a.chip i {
 .user .stats .row .stat {
  flex-grow: 1;
 }
+
+/* Search Bar */
+
+.input-field {
+ padding-left: 4em;
+}
+
+#search {
+ font-size: 24px;
+ border: none;
+ font-family: Roboto;
+ font-weight: 500;
+ color: black;
+ box-shadow: none;
+}
+
+#icon {
+ margin-left: 1em;
+}
+
+input[type=search] {
+ background-color: lightgray;
+ padding-left: 0.5em;
+}
+
+::-webkit-input-placeholder {
+ font-weight:200;
+ color:#9e9e9e;
+}
+
+::-moz-placeholder {
+ text-align:center;
+ font-weight:200;
+ color:black;
+}
+
+:-ms-input-placeholder {
+ font-weight:200;
+ color:black;
+}
+
+/* Theatre View */
+
+.theatre.modal {
+ width: 100%;
+ border-radius: 0;
+ z-index: 1003;
+ opacity: 1;
+ transform: scaleX(1);
+ top: 10%;
+}
+
+.theatre .modal-content {
+ display: flex;
+ padding: 0;
+}
+
+.theatre .profile, .theatre .dashboard {
+ max-width: none;
+ padding-left: 1vw;
+ padding-right: 1vw;
+}
+
+.theatre .dashboard {
+ background-color: darkslategrey;
+ width: 60%;
+}
+
+.theatre .profile {
+ background-color: #000;
+ color: #fff;
+ width: 40%;
+}
+
+.theatre .name {
+ font-size: 3.5vw;
+ text-align: center;
+ padding-right: 1em;
+ padding-top: 1em;
+ padding-bottom: 0.1em;
+ font-weight: 100;
+ overflow-wrap: break-word;
+}
+
+.theatre .small-heading {
+ font-size: 0.9em;
+ padding: 0.5em;
+ font-weight: 400;
+ color: lightgoldenrodyellow;
+ letter-spacing: 0.1em;
+}
+
+.theatre .description {
+ color: lightgrey;
+ text-align: justify;
+ font-size: 1.1em;
+ font-family: Roboto;
+ font-weight: 300;
+ padding: 1em;
+ overflow-wrap: break-word;
+}
+
+.theatre .settings-options {
+ color: lightgrey;
+}
+
+.theatre .settings {
+ padding: 0 0 0.5em 0;
+}
+
+.theatre .label {
+ font-size: 13px;
+ text-transform: uppercase;
+ letter-spacing: 0.1em;
+}
+
+.theatre .settings, .theatre .settings .chip {
+ color: cadetblue;
+ border-radius: 0px;
+}
+
+.theatre .detail-row {
+ bottom: 0;
+ left: 0;
+ right: 0;
+}
