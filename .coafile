@@ -1,0 +1,4 @@
+[all]
+files = **.css
+bears = SpaceConsistencyBear
+use_spaces = True
