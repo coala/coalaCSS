@@ -168,3 +168,44 @@ span.caret {
  padding-left: 0.5em;
 }
 
+/* Containers */
+
+.thin-row-small {
+ padding-left: 1.5vw;
+ padding-right: 1.5vw;
+ padding-top: 1.5vw;
+ padding-bottom: 1.5vw;
+ margin-bottom: 0 ;
+}
+
+.thin-row-medium {
+ margin-left: 4vw;
+ margin-right: 4vw;
+ margin-bottom: 0 ;
+}
+
+.parent-wrapper {
+ height: 100%;
+ width: 100%;
+}
+.parent {
+ display: flex;
+ flex-wrap: wrap;
+ margin: -10px 0 0 -10px;
+}
+.child {
+ display: inline-block;
+ margin: 10px 0 0 10px;
+ flex-grow: 1;
+ width: calc(100% * (1/4) - 10px - 1px);
+}
+
+/* Margins & Borders */
+
+.no-border {
+ border: 0;
+}
+
+.no-margin {
+ margin: 0;
+}
