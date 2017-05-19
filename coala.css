@@ -257,3 +257,109 @@ main {
  flex: 1 0 auto;
 }
 
+/* Buttons */
+
+.btn, .btn-large {
+ background-color: black;
+}
+
+.btn:hover, .btn-large:hover {
+ background-color: #424242;
+}
+
+/* Chips */
+
+a.chip i {
+ float: left;
+ margin: 0 8px 0 -12px;
+ height: 32px;
+ width: 32px;
+ border-radius: 50%;
+ font-size: 1.5em;
+ padding: 0.3em 0 0 0.3em;
+}
+
+/* Cards */
+
+.card-content li {
+ margin-bottom: 1em;
+}
+
+.user .parent-wrapper {
+ display: flex;
+ justify-content: center;
+ flex-wrap: wrap;
+ margin-top: 1em;
+}
+
+.user .card {
+ width: 200px;
+ margin-left: 0.5em;
+ margin-right: 0.5em;
+ display: inline-grid;
+}
+
+.user .empty {
+ background-color: #eceff1;
+ height: 5em;
+}
+
+.user .data {
+ background-color: #263238;
+ color: white;
+ height: 300px;
+ padding: 10px;
+}
+
+.user .dp {
+ margin-top: -5em;
+ border-radius: 100%;
+}
+
+.user .name {
+ font-size: 1.1em;
+ font-weight: 300;
+ text-align: center;
+}
+
+.user .handle {
+ font-size: 0.8em;
+ text-align: center;
+ opacity: 0.7;
+ padding: 0.5em;
+}
+
+.user .bio {
+ font-size: 0.8em;
+ text-align: center;
+ padding-top: 0.5em;
+}
+
+.user .stats {
+ margin-bottom: 0px;
+ text-align: center;
+ bottom: 0;
+ position: absolute;
+ padding-bottom: 1em;
+ left: 0;
+ right: 0;
+ word-wrap: break-word;
+ margin-top: 2em;
+ text-align: center;
+ letter-spacing: 0.1em;
+}
+
+.user .stats .row {
+ margin-bottom: 5px;
+ display: flex;
+ text-align: center;
+}
+
+.user .link {
+ bottom: 0;
+ margin-top: 1em;
+}
+
+.user .stats .row .stat {
+ flex-grow: 1;
+}
