@@ -113,3 +113,21 @@ h6 {
  font-weight: 500;
  opacity: 0.2;
 }
+
+/* Code Blocks */
+
+pre, pre.card, .pre{
+ background-color: #2b2b2b ;
+ color: #fff;
+ padding: .8em;
+ font-family: 'Roboto Mono',Menlo,"Ubuntu Mono",monospace;
+}
+
+textarea.pre {
+ height: 7rem;
+}
+
+.card pre {
+ overflow: scroll;
+ max-height: 300px;
+}
