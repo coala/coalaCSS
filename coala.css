@@ -114,6 +114,14 @@ h6 {
  opacity: 0.2;
 }
 
+.uppercase {
+ text-transform: uppercase;
+}
+
+.lowercase {
+ text-transform: lowercase;
+}
+
 /* Code Blocks */
 
 pre, pre.card, .pre{
