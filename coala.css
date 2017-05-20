@@ -387,10 +387,6 @@ a.chip i {
  box-shadow: none;
 }
 
-#icon {
- margin-left: 1em;
-}
-
 input[type=search] {
  background-color: lightgray;
  padding-left: 0.5em;
