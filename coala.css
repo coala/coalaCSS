@@ -489,3 +489,29 @@ input[type=search] {
  left: 0;
  right: 0;
 }
+
+/* Results View */
+
+.results {
+ padding: 1em;
+ margin-top: 1em;
+}
+
+.results .origin {
+ padding: 0.5em;
+ background-color: #263238;
+ color: white;
+}
+
+.results .severity {
+ padding: 0.5em;
+ background-color: #37474f;
+ color: white;
+}
+
+.results div.label {
+ margin-top: 1em;
+ padding: 0.5em;
+ background-color: #455a64;
+ color: white;
+}
