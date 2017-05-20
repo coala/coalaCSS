@@ -413,12 +413,12 @@ a.chip i {
 
 /* Search Bar */
 
-.input-field {
+.searchbar.input-field {
   padding-left: 4em;
 }
 
-#search {
-  font-size: 24px;
+.searchbar #search {
+  font-size: 2vw;
   border: none;
   font-family: Roboto;
   font-weight: 500;
@@ -426,23 +426,23 @@ a.chip i {
   box-shadow: none;
 }
 
-input[type=search] {
+.searchbar.input-field input[type=search] {
   background-color: lightgray;
   padding-left: 0.5em;
 }
 
-::-webkit-input-placeholder {
+.searchbar ::-webkit-input-placeholder {
   font-weight: 200;
   color: #9e9e9e;
 }
 
-::-moz-placeholder {
+.searchbar ::-moz-placeholder {
   text-align: center;
   font-weight: 200;
   color: black;
 }
 
-:-ms-input-placeholder {
+.searchbar :-ms-input-placeholder {
   font-weight: 200;
   color: black;
 }
