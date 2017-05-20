@@ -196,16 +196,24 @@ span.caret {
  height: 100%;
  width: 100%;
 }
+
 .parent {
  display: flex;
  flex-wrap: wrap;
  margin: -10px 0 0 -10px;
 }
+
 .child {
- display: inline-block;
+ display: inline-grid;
  margin: 10px 0 0 10px;
+ width: 250px;
  flex-grow: 1;
- width: calc(100% * (1/4) - 10px - 1px);
+}
+
+@media only screen and (min-width: 993px) {
+.container {
+  width: 80%;
+ }
 }
 
 /* Margins & Borders */
