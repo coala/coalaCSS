@@ -228,18 +228,19 @@ span.caret {
   display: flex;
   flex-wrap: wrap;
   margin: -10px 0 0 -10px;
+  justify-content: center;
 }
 
 .child {
   display: inline-grid;
   margin: 10px 0 0 10px;
-  width: 250px;
-  flex-grow: 1;
+  width: 300px;
+  flex-grow: 0;
 }
 
 @media only screen and (min-width: 993px) {
   .container {
-    width: 90%;
+    width: 80%;
   }
 }
 
