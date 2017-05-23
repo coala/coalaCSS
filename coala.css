@@ -343,6 +343,8 @@ a.chip i {
   margin-bottom: 1em;
 }
 
+/* User Card */
+
 .user .parent-wrapper {
   display: flex;
   justify-content: center;
@@ -350,11 +352,23 @@ a.chip i {
   margin-top: 1em;
 }
 
+.user .parent {
+  justify-content: center;
+}
+
 .user .card {
   width: 200px;
   margin-left: 0.5em;
   margin-right: 0.5em;
   display: inline-grid;
+}
+
+.user .card .card-action a:not(.btn):not(.btn-large):not(.btn-floating) {
+  margin-right: 0;
+}
+
+.user .data.thumbnail {
+  max-height: 100px;
 }
 
 .user .empty {
@@ -381,7 +395,7 @@ a.chip i {
 }
 
 .user .handle {
-  font-size: 0.8em;
+  font-size: 1em;
   text-align: center;
   opacity: 0.7;
   padding: 0.5em;
