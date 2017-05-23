@@ -512,6 +512,10 @@ a.chip i {
   top: 10%;
 }
 
+.theatre.modal.margin {
+  width: 90%;
+}
+
 .theatre .modal-content {
   display: flex;
   padding: 0;
@@ -526,13 +530,13 @@ a.chip i {
 
 .theatre .dashboard {
   background-color: darkslategrey;
-  width: 60%;
+  width: 70%;
 }
 
 .theatre .profile {
   background-color: #000;
   color: #fff;
-  width: 40%;
+  width: 30%;
 }
 
 .theatre .name {
@@ -589,6 +593,51 @@ a.chip i {
   right: 0;
 }
 
+.theatre ul:not(.browser-default) {
+  margin-left: 1em;
+}
+
+.theatre ul:not(.browser-default) li {
+  margin-left: 1em;
+}
+
+.theatre li {
+  list-style-type: disc;
+}
+
+.theatre .description h4 {
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  color: wheat;
+  text-transform: uppercase;
+}
+
+.theatre .description h5 {
+  letter-spacing: 0.1em;
+  color: wheat;
+  font-size: 1em;
+}
+
+.arrows {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 60px;
+  width: 100%;
+  background: transparent;
+  z-index: 9999;
+  padding-top: 1em;
+}
+
+.arrow-click {
+  font-size: 2em!important;
+  color: lightgrey;
+  cursor: pointer;
+}
+
+.theatre .description a {
+  color: azure;
+}
 
 /* Results View */
 
