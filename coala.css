@@ -436,6 +436,33 @@ a.chip i {
   flex-grow: 1;
 }
 
+/* Outline card */
+
+.outline .card-content {
+  height: 250px;
+}
+
+.outline .card-action {
+  padding: 10px;
+  min-height: 70px;
+}
+
+.outline .card-action span {
+  display: inline-block;
+}
+
+.outline .card-action span a {
+  font-size: 1.2em;
+  color: darkcyan!important;
+  text-transform: none!important;
+  font-family: 'Roboto Mono',menlo,monospace;
+}
+
+.outline .flag {
+  bottom: 0;
+  position: absolute;
+  width: 100%;
+}
 
 /* Search Bar */
 
