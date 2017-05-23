@@ -289,6 +289,13 @@ footer.page-footer .footer-copyright {
   background-color: #263238;
 }
 
+.footer-light .footer-title{
+  font-size: 42px;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,sans-serif;
+  font-weight: 100;
+  vertical-align: text-bottom;
+}
+
 .page-footer li {
   padding: 0.2em;
 }
