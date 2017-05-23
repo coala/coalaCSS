@@ -125,6 +125,10 @@ h6 {
   font-weight: 100;
 }
 
+.tiny {
+  font-size: 0.8em;
+}
+
 .tiny-label {
   font-size: 10px;
   letter-spacing: 0.1em;
