@@ -323,6 +323,24 @@ main {
   background-color: #424242;
 }
 
+/* Stamp Buttons */
+
+.stamp .fa-github-alt, .stamp .fa-rocket{
+  font-size: 3em;
+  padding-left: 0.2em;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.stamp {
+  display: inline-flex;
+  color: grey ;
+  justify-content: center;
+}
+
+.stamp:hover {
+  cursor: pointer;
+  background: rgba(0, 0, 0, 0.7) !important;
+}
 
 /* Chips */
 
