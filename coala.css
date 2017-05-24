@@ -342,6 +342,13 @@ main {
   background: rgba(0, 0, 0, 0.7) !important;
 }
 
+.stamp span {
+  font-size: 1.2em;
+  padding-left: 1em;
+  padding-right: 0.5em;
+  background: rgba(0, 0, 0, 0.2);
+}
+
 /* Chips */
 
 a.chip i {
