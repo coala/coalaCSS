@@ -663,6 +663,10 @@ a.chip i {
   color: azure;
 }
 
+.theatre .dashboard span {
+  color: white;
+}
+
 /* Results View */
 
 .results {
