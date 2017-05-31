@@ -623,6 +623,7 @@ a.chip i {
 
 .theatre ul:not(.browser-default) li {
   margin-left: 1em;
+  list-style-type: disc;
 }
 
 .theatre li {
