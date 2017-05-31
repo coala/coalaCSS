@@ -627,7 +627,7 @@ a.chip i {
 }
 
 .theatre li {
-  list-style-type: disc;
+  list-style-type: inherit;
 }
 
 .theatre .description h4 {
