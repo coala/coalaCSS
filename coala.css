@@ -65,8 +65,8 @@ ul li a {
 
 @media (max-width: 768px) {
 nav {
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 
-  0 1px 5px 0 rgba(0,0,0,0.12), 
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14),
+  0 1px 5px 0 rgba(0,0,0,0.12),
   0 3px 1px -2px rgba(0,0,0,0.2);
  }
 }
@@ -692,4 +692,83 @@ a.chip i {
   padding: 0.5em;
   background-color: #455a64;
   color: white;
+}
+
+/* coala Online View */
+
+.coala-online select {
+  display: block;
+}
+
+.coala-online .card-panel {
+  padding: 12px;
+  margin: 0rem 0 0rem 0;
+  border-radius: 2px;
+  background-color: #fff;
+}
+
+.coala-online .section-title {
+  padding: 12px;
+  margin: 0em 0em 2em 0em;
+  display: flex;
+}
+
+.coala-online .coalasection {
+  padding-bottom: 0.1em;
+  margin-bottom: 2em;
+}
+
+.coala-online .coalasection input {
+  margin-bottom: 0;
+}
+
+.coala-online .section-name {
+  flex-grow: 1;
+  padding: 0.7em 1em 0 0;
+  font-family: 'Roboto Mono';
+}
+
+.coala-online .bears-icon {
+  font-size: 2em;
+  cursor: pointer;
+  padding: 0.2em
+}
+
+.coala-online .autocomplete-content {
+  margin-top: 0;
+}
+
+.coala-online .new-section input {
+  margin-bottom: 0 !important;
+}
+
+.coala-online .new-section .col {
+  padding: 1em;
+}
+
+.coala-online .new-section i {
+  float: left;
+  margin: 0 8px 0 -12px;
+  height: 32px;
+  width: 32px;
+  font-size: 1.5em;
+  padding: 0;
+}
+
+.coala-online .coafile {
+  background: #263238;
+  white-space: pre-line;
+  padding: 1em;
+  color: white;
+  font-family: "Roboto Mono";
+}
+
+.coala-online .results-data {
+  background: #263238;
+  padding-left: 0.2em;
+  padding-right: 0.2em;
+  border-top: 0.1em solid;
+  border-bottom: 0.1em solid;
+  max-height: 100vh;
+  overflow: scroll;
 }
