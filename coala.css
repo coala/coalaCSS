@@ -772,3 +772,15 @@ a.chip i {
   max-height: 100vh;
   overflow: scroll;
 }
+
+.coala-online .run-coala {
+  display: inline-flex;
+  padding: 0 1em 0 2em;
+  font-size: 1em;
+  align-items: center;
+}
+
+.coala-online .run-coala img {
+  height: 3em;
+  margin-left: 1em;
+}
