@@ -255,6 +255,9 @@ span.caret {
   margin: 0;
 }
 
+.no-outline {
+  outline: none;
+}
 
 /* Footer */
 
