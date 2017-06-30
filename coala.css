@@ -663,6 +663,21 @@ a.chip i {
   cursor: pointer;
 }
 
+.arrow-move-right, .arrow-move-left {
+  display: inline;
+  position: fixed;
+  bottom: 40px;
+  z-index: 9999;
+}
+
+.arrow-move-right {
+  right: 20%;
+}
+
+.arrow-move-left {
+  left: 20%;
+}
+
 .theatre .description a {
   color: azure;
 }
