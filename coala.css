@@ -773,6 +773,10 @@ a.chip i {
   padding: 0;
 }
 
+.coafile {
+  overflow-x: auto;
+}
+
 .coala-online .coafile {
   background: #263238;
   white-space: pre-line;
