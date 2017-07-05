@@ -780,6 +780,7 @@ a.chip i {
   padding: 1em;
   color: white;
   font-family: "Roboto Mono";
+  overflow-x: auto;
 }
 
 .coala-online .results-data {
