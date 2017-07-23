@@ -499,7 +499,7 @@ a.chip i {
 }
 
 .searchbar #search {
-  font-size: 2vw;
+  font-size: 2em;
   border: none;
   font-family: Roboto;
   font-weight: 500;
