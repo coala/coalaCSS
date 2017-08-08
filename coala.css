@@ -753,6 +753,13 @@ a.chip i {
   padding: 0.2em
 }
 
+.coala-online .bears-icon-small {
+  font-weight: 600;
+  padding: 1em;
+  font-size: 1em;
+  cursor: pointer;
+}
+
 .coala-online .autocomplete-content {
   margin-top: 0;
 }
