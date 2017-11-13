@@ -543,6 +543,7 @@ a.chip i {
   opacity: 1;
   transform: scaleX(1);
   top: 10%;
+  bottom: 0;
 }
 
 .theatre.modal.margin {
@@ -559,6 +560,10 @@ a.chip i {
   max-width: none;
   padding-left: 1vw;
   padding-right: 1vw;
+}
+
+.theatre .profile {
+  padding-bottom: 1vw;
 }
 
 .theatre .dashboard {
