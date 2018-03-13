@@ -1,3 +1,9 @@
+/* Misc */
+
+.clickable {
+	cursor: pointer;
+}
+
 /* Tab Navigation */
 
 .tabs {
