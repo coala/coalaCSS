@@ -776,6 +776,11 @@ a.chip i {
   cursor: pointer;
 }
 
+.coala-online .add-bear {
+    font-family: 'Roboto';
+    font-weight: bold;
+}
+
 .coala-online .autocomplete-content {
   margin-top: 0;
 }
